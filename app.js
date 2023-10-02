@@ -64,14 +64,19 @@ if (number_1_Q4 > number_2_Q4) {
 alert(
   "Q5: Read two numbers and display their sum.  What problem did you encounter?"
 );
-let number_1_Q5 = prompt("please Enter a number_1");
-let number_2_Q5 = prompt("please Enter a number_2");
+let number_1_Q5 = +prompt("please Enter a number_1");
+let number_2_Q5 = +prompt("please Enter a number_2");
 let sum = number_1_Q5 + number_2_Q5;
 alert(sum);
-alert("The problem I encountered is that it collects them as string");
+alert(
+  "The problem I encountered is that it collects them as string use + befor prompt To convert it into a number"
+);
 
 // Q6
-let num = 1;
+alert(
+  "Q6: If you have a “num” variable,  Your task is to print:"
+);
+let num = +prompt("please enter your number");
 switch (num) {
   case 1:
     num = 1;
