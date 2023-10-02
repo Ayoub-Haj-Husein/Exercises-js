@@ -32,3 +32,17 @@ Q6: If you have a “num” variable, Your task is to print:
 - EIGHT, if it is equal to 8.
 - NINE, if it is equal to 9.
 - PLEASE TRY AGAIN, if there is none of the above.
+
+Q7: Use a loop to display the numbers 0 through 5, each in a separate alert window.
+
+Q8: Use a loop to display the numbers 0 through 5 in a single alert window
+
+Q9: Use a loop to display the numbers in the range 0…20 that are multiples of 3.
+
+Q10: Prompt the user for a number in the range 0…100. If the number is out of range, display an error message and prompt again until a valid number is entered. Assume the user enters a number each time
+
+Q11: Repeat previous exercise, but this time allow for the possibility that the user enters something that is not a number. Hint: the built in function isNaN(x) returns true if x is not a number. It returns false if x is a number. Sort of backwards, but that's what's available.
+
+Q12: Prompt for an integer, then display the sum of the integers from 0 through the number entered. For example, if you enter 10, then display 55 which is the sum of 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+
+Q13: Prompt for an integer, then display the average of the integers from 0 through the number entered. For example, if you enter 10, then display 5 which is the average of (0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)/11.
